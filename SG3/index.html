@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 id="title">Todo List</h1>
+    <input type="text" name="inputTask1" id="inputTask" placeholder="Enter a Task" >
+    <button id="addTask" onclick="swapAddEditButton(this)" value="1">Add Task</button>
+    <div id="taskListParent">
+        <span class="taskListChild" >
+            <p class="taskText" id="task1">Task 1</p>
+            <button class="taskButtonEdit" onclick="editTask(this.parentElement)">Edit</button>
+            <button class="taskButtonDelete" onclick="deleteTask(this)">Delete</button>
+        </span>
+    </div>
+
+
+    <script src="scriptSG3_1.js"></script>
+</body>
+</html>
