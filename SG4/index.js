@@ -35,6 +35,7 @@ const updateNote = (idIn, head, desc, nama) => {
 
 const deleteNote = (idIn) => {
   // kode kalian
+  notes.splice(idIn-1, 1)
 }
 
 // mengetes kode (diharapkan untuk tidak diganti): 
