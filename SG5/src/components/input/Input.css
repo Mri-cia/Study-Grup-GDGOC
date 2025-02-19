@@ -1,0 +1,12 @@
+input{
+    height: 20px;
+    width: 340px;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.input-elements{
+    display: flex;
+    justify-content: space-between;
+}
